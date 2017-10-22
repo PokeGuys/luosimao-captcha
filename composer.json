@@ -17,7 +17,7 @@
       "src/migrations"
     ],
     "psr-4": {
-      "Pokeguys\\luosimao-captcha\\": "src/"
+      "Pokeguys\\Luosimao\\": "src/"
     }
   },
   "minimum-stability": "dev"
