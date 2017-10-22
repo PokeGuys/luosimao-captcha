@@ -20,10 +20,5 @@
       "Pokeguys\\luosimao-captcha\\": "src/"
     }
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.0-dev"
-    }
-  },
   "minimum-stability": "dev"
 }
