@@ -1,8 +1,8 @@
 {
-  "name": "pokeguys/laravel-luosimao",
+  "name": "pokeguys/laravel-luosimao-captcha",
   "description": "Luosimao Validator for Laravel 5",
   "keywords": ["luosimao", "captcha", "laravel", "laravel5"],
-  "homepage": "http://github.com/pokeguys/laravel-luosimao",
+  "homepage": "http://github.com/pokeguys/laravel-luosimao-captcha",
   "license": "MIT",
   "authors": [{
     "name": "PokeGuys",
@@ -17,7 +17,7 @@
       "src/migrations"
     ],
     "psr-4": {
-      "Pokeguys\\laravel-luosimao\\": "src/"
+      "Pokeguys\\luosimao\\": "src/"
     }
   },
   "extra": {
