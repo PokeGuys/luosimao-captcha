@@ -9,7 +9,7 @@ Add the following line to the `require` section of `composer.json`:
 
 ```json
 "require": {
-  "pokeguys/luosimao": "dev-master"
+  "pokeguys/laravel-luosimao-captcha": "dev-master"
 }
 ```
 
