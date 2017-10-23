@@ -2,7 +2,7 @@
 
 namespace Pokeguys\Luosimao\Service;
 
-class CheckLuosimao implements LuosimaoInterface
+class CheckbindLuosimao implements LuosimaoInterface
 {
     /**
      * Validate Luosimao response
