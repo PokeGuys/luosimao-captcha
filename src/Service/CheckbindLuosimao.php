@@ -25,6 +25,8 @@ class CheckbindLuosimao implements LuosimaoInterface
         curl_setopt($curl, CURLOPT_HTTP_VERSION  , CURL_HTTP_VERSION_1_0 );
         curl_setopt($curl, CURLOPT_HEADER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
         curl_setopt($curl, CURLOPT_TIMEOUT, app('config')->get('luosimao.options.curl_timeout', 8));
         curl_setopt($curl, CURLOPT_POST, TRUE);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $parameters);
