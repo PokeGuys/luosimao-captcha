@@ -52,4 +52,14 @@ $rules = [
 ];
 ```
 
+```php
+        $this->validate($request,[
+            'luotest_response' => 'required|luosimao',
+        ],[
+            'luotest_response.required'  => '请点按验证码！',
+            'luotest_response.luosimao'  => '验证码错误，请重试。',
+        ]);
+
+```
+
 It's also recommended to add `required` when validating.
